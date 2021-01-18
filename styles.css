@@ -1,7 +1,23 @@
 p {
     display: inline;
 }
-img {
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: radial-gradient( circle 993px at 0.5% 50.5%,  rgba(137,171,245,0.37) 0%, rgba(245,247,252,1) 100.2% );
+    margin: 0px;
+}
+
+body nav {
+    background: white;
+    position: fixed;
+}
+
+div {
+    padding: 1rem; 
+}
+
+.profilepic {
     border: 3px solid #000000;
     border-radius: 20px;
 }
@@ -23,4 +39,37 @@ img {
     background-color: #08AEEA;
     background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
 
+}
+
+nav ul.navigation-menu {
+    display: inline-block;
+}
+
+nav ul.navigation-menu li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav .logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding:1rem;
+}
+
+nav ul.navigation-menu li.active {
+    font-weight: bold;
+}
+
+.column {
+    width: 47%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    display:inline-block
+}
+
+.column-container {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
 }

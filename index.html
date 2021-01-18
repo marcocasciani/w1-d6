@@ -7,15 +7,56 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <div style="font-size: 20px">
-        <h1>Hi! I'm Marco</h1>
-        <img src="marco-pic.jpg" alt="marco's profile pic" height="200px">
-        <h2>This is my presentation page</h2>
-        <h3><a href="https://www.marcocasciani.com">Visit my official website!</a></h3>
-        </div>
-        <div>
-            <p>Hi everyone, I'm Marco Casciani from Rome. I'm 34 years old and I'm a Copywriter freelancer. Well, actually I work in different branches of web marketing. I started as a Copywriter but I'm also a Social Media Manager and I can build websites for my clients with Wordpress. This is why I'm here to learn about HTML, CSS and JAVASCRIPT. I love cinema, in particular horror movies and I'm a bass player of a punk band here in Rome.</p>
-        
+        <nav>
+            <img class="logo" src="black.png" width="100"/>
+            <ul class="navigation-menu">
+                <li class="active">Home</li>
+                <li>My Website</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
+        <main>
+            <section class="column-container">
+                <div class="column" style="font-size: 20px">
+                    <h1>Hi! I'm Marco</h1>
+                    <img class="profilepic" src="marco-pic.jpg" alt="marco's profile pic" height="200px">
+                    <h2>This is my presentation page</h2>
+                    <h3><a href="https://www.marcocasciani.com">Visit my official website!</a></h3>
+                    <p>Hi everyone, I'm Marco Casciani from Rome. I'm 34 years old and I'm a Copywriter freelancer. Well, actually I work in different branches of web marketing. I started as a Copywriter but I'm also a Social Media Manager and I can build websites for my clients with Wordpress. This is why I'm here to learn about HTML, CSS and JAVASCRIPT. I love cinema, in particular horror movies and I'm a bass player of a punk band here in Rome.</p></div>
+                <div class="column" style="font-size: 20px">
+                    <h2>These are my skills</h2>
+                    <section class="column-container">
+                        <div class="column">Technical
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>Social Media</li>
+                                <li>Copywriting</li>
+                            </ul>
+                        </div>
+                        <div class="column">Soft
+                            <ul>
+                                <li>Web Design</li>
+                                <li>Marketing</li>
+                                <li>SEO</li>
+                            </ul>
+                        </div>
+                        <div class="column">Hobbies
+                            <ul>
+                                <li>Bass player</li>
+                                <li>Movies</li>
+                                <li>Literature</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <h1>Contacts:</h1>
+                    <ul>
+                        <li>Email: casciani.marco@gmail.com</li>
+                        <li>Phome: +39 3803638127</li>
+                        <li>Website: www.marcocasciani.com</li>
+                    </ul>
+            </section>
+        </main>
+        <div>        
             <h3>These are my <span style="color: #ad1717">skills</span>:</h3>
             <ul>
                 <li>Wordpress</li>
@@ -25,10 +66,12 @@
                 <li>Web Marketing Strategies</li>
             </ul>
         </div>
+        <div>
         <a href="index2.html">Click to go to an empty page</a>
         <h2>If you are interested in my work, leave me your Email!</h2>
         <input type="email" placeholder="Your Email"/>
         <input type="button" value="Send"/>
+        </div>
         <div style="margin-top:48px">
             <div class="box red"><a href="https://www.marcocasciani.com">Contact me</a></div>
             <div class="box green"><a href="https://www.marcocasciani.com">My portfolio</a></div>
